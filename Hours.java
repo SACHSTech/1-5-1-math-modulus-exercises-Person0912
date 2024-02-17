@@ -16,7 +16,7 @@ class Hours extends ConsoleProgram {
     // Receive user input
     dblHours = readDouble("Enter a number in hours: ");
 
-    // Perform calculations 
+    // Perform calculations
     dblDaysHours = dblHours % 24;
     dblDays = (dblHours-dblDaysHours) / 24;
 

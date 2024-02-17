@@ -2,7 +2,7 @@ class AreaSin extends ConsoleProgram {
 
   /**
   * The program AreaSin.java calculates the area of a triangle given two sides
-  * and a contained angle.
+  * and a contained angle
   * @author: Kayla Jin 
   */
   
@@ -14,7 +14,7 @@ class AreaSin extends ConsoleProgram {
     double dblAngleC;
     double dblTriangleArea;
 
-    // Gather user input 
+    // Gather user input
     dblSideA = readDouble("Enter the length of side A: ");
     dblSideB = readDouble("Enter the length of side B: ");
     dblAngleC = readDouble("Enter the degree of angle C: ");
