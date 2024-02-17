@@ -8,17 +8,17 @@ class FtoC extends ConsoleProgram {
   
   public void run() {
     
-    // declare variables
+    // Declare variables
     double dblFahrenheit;
     double dblCelsius;
 
-    // receive user input
+    // Receive user input
     dblFahrenheit = readDouble("Enter the degrees in fahrenheit: ");
 
-    // calculate the degrees in celsius
+    // Calculate the degrees in celsius
     dblCelsius = 5.0 / 9.0 * (dblFahrenheit - 32);
     
-    // output the result
+    // Output the result
     System.out.println("The degrees in celsius is: " + dblCelsius);
     
   }

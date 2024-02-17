@@ -8,19 +8,19 @@ class Power extends ConsoleProgram {
   
   public void run() {
     
-    // define variables
+    // Define variables
     double dblBase;
     double dblExponent;
     double dblResult;
 
-    // receive user input
+    // Receive user input
     dblBase = readDouble("What is the base? ");
     dblExponent = readDouble("What is the exponent? ");
 
-    // perform calculations
+    // Perform calculations
     dblResult = Math.pow(dblBase, dblExponent);
 
-    // output the result
+    // Output the result
     System.out.println("The result is: " + dblResult);
     
   }

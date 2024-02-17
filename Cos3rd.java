@@ -8,21 +8,21 @@ class Cos3rd extends ConsoleProgram {
   
   public void run() {
     
-    // declare variables
+    // Declare variables
     double dblSideA;
     double dblSideB;
     double dblSideC;
     double dblAngleC;
 
-    // receive input from the user
+    // Receive input from the user
     dblSideA = readDouble("Enter the length of side A: ");
     dblSideB = readDouble("Enter the length of side B: ");
     dblAngleC = readDouble("Enter angle C: ");
 
-    // calculate the side length
+    // Calculate the side length
     dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - 2 * dblSideA * dblSideB * Math.cos((Math.toRadians(dblAngleC))));
 
-    // output the result to the user
+    // Output the result to the user
     System.out.println("The third side of the triangle is: " + dblSideC);
 
   }

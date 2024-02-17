@@ -7,17 +7,17 @@ class Rads extends ConsoleProgram {
   
   public void run() {
     
-    // define variables
+    // Define variables
     double dblDegrees;
     double dblRadians;
 
-    // receive input
+    // Receive input
     dblDegrees = readDouble("Enter a number in degrees: ");
 
-    // calculations
+    // Calculations
     dblRadians = Math.toRadians(dblDegrees);
 
-    // output
+    // Output
     System.out.println("The number " + dblDegrees + " in radians is: " + dblRadians);
     
   }

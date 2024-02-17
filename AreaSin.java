@@ -8,21 +8,21 @@ class AreaSin extends ConsoleProgram {
   
   public void run() {
     
-    // declare variables
+    // Declare variables
     double dblSideA;
     double dblSideB;
     double dblAngleC;
     double dblTriangleArea;
 
-    // gather user input
+    // Gather user input
     dblSideA = readDouble("Enter the length of side A: ");
     dblSideB = readDouble("Enter the length of side B: ");
     dblAngleC = readDouble("Enter the degree of angle C: ");
 
-    // calculate the area of the triangle
+    // Calculate the area of the triangle
     dblTriangleArea = dblSideA * dblSideB * Math.sin(Math.toRadians(dblAngleC)) / 2;
 
-    // output the result
+    // Output the result
     System.out.println("The area of the triangle is: " + dblTriangleArea);
     
   }
