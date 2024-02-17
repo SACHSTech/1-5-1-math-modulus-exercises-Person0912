@@ -7,7 +7,7 @@ class Circumference extends ConsoleProgram {
   
   public void run() {
     
-    // Declare variables
+    // Declare variables 
     double dblRadius;
     double dblCircumference;
 
