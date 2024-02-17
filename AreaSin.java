@@ -14,7 +14,7 @@ class AreaSin extends ConsoleProgram {
     double dblAngleC;
     double dblTriangleArea;
 
-    // Gather user input
+    // Gather user input 
     dblSideA = readDouble("Enter the length of side A: ");
     dblSideB = readDouble("Enter the length of side B: ");
     dblAngleC = readDouble("Enter the degree of angle C: ");

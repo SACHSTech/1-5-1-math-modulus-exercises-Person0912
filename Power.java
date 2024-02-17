@@ -13,7 +13,7 @@ class Power extends ConsoleProgram {
     double dblExponent;
     double dblResult;
 
-    // Receive user input
+    // Receive user input 
     dblBase = readDouble("What is the base? ");
     dblExponent = readDouble("What is the exponent? ");
 

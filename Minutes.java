@@ -18,7 +18,7 @@ class Minutes extends ConsoleProgram {
     // Receive user input
     intInputedMinutes = readInt("Enter a number in minutes as an integer: ");
 
-    // Perform calculations
+    // Perform calculations 
     intDays = intInputedMinutes / 1440;
     intRemainingMinutes = intInputedMinutes % 1440;
     intHours = intRemainingMinutes / 60;

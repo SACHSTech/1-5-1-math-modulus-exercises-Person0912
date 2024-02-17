@@ -7,7 +7,7 @@ class Rads extends ConsoleProgram {
   
   public void run() {
     
-    // Define variables
+    // Define variables 
     double dblDegrees;
     double dblRadians;
 
