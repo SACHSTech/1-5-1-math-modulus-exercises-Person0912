@@ -1,7 +1,8 @@
 class Circumference extends ConsoleProgram {
 
   /**
-  * A program that finds the circumference of a circle from a radius inputed by the user
+  * A program Circumference.java that finds the circumference of a 
+  * circle from a radius inputed by the user.
   * @author: Kayla Jin
   */
   
@@ -12,13 +13,13 @@ class Circumference extends ConsoleProgram {
     double dblCircumference;
 
     // Receive radius
-    dblRadius = readDouble("Enter the radius: ");
+    dblRadius = readDouble("Enter the radius of a circle: ");
 
     // Calculate the circumference
     dblCircumference = 2 * Math.PI * dblRadius;
 
     // Output the results
-    System.out.println("The circumference is of a circle with radius " + dblRadius + " is " + dblCircumference);
+    System.out.println("The circumference of a circle with radius " + dblRadius + " is " + dblCircumference);
     
   }
 }

@@ -25,7 +25,7 @@ class Minutes extends ConsoleProgram {
     intMinutes = intInputedMinutes % 60;
 
     // Output the result
-    System.out.println(intInputedMinutes + " minutes is equivalent to " + intDays + " days, " + intHours + " hours, and " + intMinutes + " minutes.");
+    System.out.println(intInputedMinutes + " minutes is equal to " + intDays + " days, " + intHours + " hours, and " + intMinutes + " minutes.");
     
   }
 }

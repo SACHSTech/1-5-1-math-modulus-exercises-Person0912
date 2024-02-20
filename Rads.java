@@ -1,7 +1,7 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * A program Rads.java that converts degree measures to radian measures
+  * A program Rads.java that converts degree measures to radian measures.
   * @author: Kayla Jin
   */
   

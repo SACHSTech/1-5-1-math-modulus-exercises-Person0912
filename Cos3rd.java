@@ -2,7 +2,7 @@ class Cos3rd extends ConsoleProgram {
 
   /**
   * A program Cos3rd.java that calculates the length of the side of a triangle
-  * using cosine law based on user input of two side lengths and the contained angle.
+  * using cosine law based on user input of two side lengths and a contained angle.
   * @author: Kayla Jin
   */
   
@@ -15,9 +15,9 @@ class Cos3rd extends ConsoleProgram {
     double dblAngleC;
 
     // Receive input from the user
-    dblSideA = readDouble("Enter the length of side A: ");
-    dblSideB = readDouble("Enter the length of side B: ");
-    dblAngleC = readDouble("Enter angle C: ");
+    dblSideA = readDouble("Enter the length of side A on a triangle: ");
+    dblSideB = readDouble("Enter the length of side B on a triangle: ");
+    dblAngleC = readDouble("Enter the angle of C: ");
 
     // Calculate the side length
     dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - 2 * dblSideA * dblSideB * Math.cos((Math.toRadians(dblAngleC))));
