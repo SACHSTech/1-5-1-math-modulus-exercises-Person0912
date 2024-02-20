@@ -16,7 +16,7 @@ class FtoC extends ConsoleProgram {
     dblFahrenheit = readDouble("Enter the degrees in fahrenheit: ");
 
     // Calculate the degrees in celsius
-    dblCelsius = 5.0 / 9.0 * (dblFahrenheit - 32);
+    dblCelsius = 5.0 / 9.0 * (dblFahrenheit-32);
     
     // Output the result
     System.out.println("The degrees in celsius is: " + dblCelsius);
